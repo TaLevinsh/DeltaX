@@ -1,0 +1,16 @@
+DeltaX Project by Tal Saban
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+- A customized Windows Security python tool.
+- Tracks changes on Registry Editor keys as indication of compromise.
+- This tool is managed to perform any time a new registry value is added!
+
+Files
+^^^^^
+- BaseLine File: Contains entries (registry values) that new data will be compared to.
+
+Instructions
+^^^^^^^^^^^^
+1 > Reads the BaseLine file.
+2 > Reads the keys inside the Registry Editor.
+3 > Compares the entries (value data) and shows the delta between the stages.
+4 > Updates or Removes new entries.
