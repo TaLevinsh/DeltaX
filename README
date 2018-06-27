@@ -13,4 +13,4 @@ Instructions
 1 > Reads the BaseLine file.
 2 > Reads the keys inside the Registry Editor.
 3 > Compares the entries (value data) and shows the delta.
-4 > Updates or Removes new entries.
+4 > Updates or removes new entries.
