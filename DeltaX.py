@@ -6,7 +6,7 @@ import sys
 
 MOUNTED_DEVICES = 'System\MountedDevices'
 USB = 'System\CurrentControlSet\Enum\USB'
-CONFIG = 'C:\DeltaX\Registry\Config.txt'
+CONFIG = 'C:\Users\Owner\PycharmProjects\Git\DeltaX\Config.txt'     # What keys to scan
 
 
 def Read_Config():
@@ -62,7 +62,7 @@ def Show_Key_Delta():
         if Ans == 'Y':
             KeyName = K
             break
-    FileName = 'C:\\DeltaX\\Registry\\' + raw_input('Insert baseline file name > ')
+    FileName = 'C:\\Users\\Owner\\PycharmProjects\\Git\\DeltaX\\' + raw_input('Insert baseline file name > ')   # BaseLine.txt
     Baseline = Read_File(FileName)
     Current, ChangeTime = Read_Key(KeyName)
     New = 0
@@ -75,7 +75,7 @@ def Show_Key_Delta():
             print '@ NEW VALUE @', C
     if New > 0:
         print '\n', New, 'New values have been added.'
-        A = raw_input('Would you like to update the baseline file? [y | n]'
+        A = raw_input('Would you like to update the baseline file? [Y | N]'
                       '\n> ')
         if A == 'Y':
             Update_File(Current, FileName)
