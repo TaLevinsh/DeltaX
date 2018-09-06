@@ -6,7 +6,7 @@ The tool is managed to perform any time a new registry value is added!
 
 Files
 ^^^^^
-- Config: File contains data about the Registry keys you wish to scan
+- Config: File contains data about the Registry keys you wish to scan.
 - BaseLine: File contains data about old/new Registry values.
 
 Instructions
