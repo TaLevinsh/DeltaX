@@ -3,7 +3,6 @@ from datetime import *
 import re
 import sys
 
-
 MOUNTED_DEVICES = 'System\MountedDevices'
 USB = 'System\CurrentControlSet\Enum\USB'
 CONFIG = 'C:\Users\Owner\PycharmProjects\Git\DeltaX\Config.txt'     # What keys to scan
