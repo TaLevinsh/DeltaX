@@ -3,7 +3,6 @@ DeltaX Project by Tal Saban
 A customized Windows Security python tool that tracks changes on Registry Editor keys as indication of compromise.
 The tool is managed to perform any time a new registry value is added!
 
-
 Files
 ^^^^^
 - Config: File contains data about the Registry keys you wish to scan.
